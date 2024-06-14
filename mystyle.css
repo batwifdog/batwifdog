@@ -167,9 +167,6 @@ html,
 	padding:50px 0;
 }
 #i68vav {
-	display: flex;
-	flex-direction:row;
-	flex-basis: 0 0 auto;
 	margin-top:0px;
 	margin-right:0px;
 	margin-bottom:0px;
@@ -177,7 +174,6 @@ html,
 	background-color:rgba(255,157,0,1);
 }
 #ac_layer_23f31802_13 {
-float: left;
 }
 
 @media (max-width:992px) {
