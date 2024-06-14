@@ -168,6 +168,8 @@ html,
 }
 #i68vav {
 	display: flex;
+	flex-direction:row;
+	flex-basis: 0 0 auto;
 	margin-top:0px;
 	margin-right:0px;
 	margin-bottom:0px;
