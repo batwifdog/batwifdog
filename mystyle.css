@@ -14,13 +14,13 @@ body {
 #parent_container {
 display: flex;
 flex-flow: row nowrap;
-	justify-content: center;
+	justify-content: start;
 }
 
  #container {
-      width: 500px;
-      height: 500px;
-	 overlow: hidden;
+      width: 750px;
+      height: 750px;
+      overlow: hidden;
     }
 
 #ac_layer_3494b419_21 {
