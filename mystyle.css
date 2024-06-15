@@ -24,6 +24,9 @@ html,
 height: 300px;
 width: 300px;
 }
+.anychart-credits{
+	display: none;
+}
 
 .gjs-grid-column {
 	flex:1 1 0%;
