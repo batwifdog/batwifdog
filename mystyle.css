@@ -20,6 +20,11 @@ html,
       padding: 0;
     }
 
+#66 {
+height: 300px;
+	width: 300px;
+}
+
 .gjs-grid-column {
 	flex:1 1 0%;
 	padding:5px 0;
