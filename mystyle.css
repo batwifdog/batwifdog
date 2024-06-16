@@ -192,7 +192,7 @@ width: 100px;
 }
 
 #Headlines_bg{
-	position: absolute;
+	position: static;
 	top:0px;
 	left:0px;
   width:622px;
@@ -204,7 +204,7 @@ width: 100px;
 }
 
 #Headlines_Container{
-	position: absolute;
+	position: static;
 	top:0px;
 	left:0px;
 	width:622px;
@@ -214,7 +214,7 @@ width: 100px;
 }
 
 #Headlines{
-	position: absolute;
+	position: static;
 	top: 5px;
 	height: 30px;
 	white-space: nowrap;
