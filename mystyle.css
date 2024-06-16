@@ -191,6 +191,50 @@ width: 100px;
 	background-color:rgba(255,157,0,1);
 }
 
+#Headlines_bg{
+	position: absolute;
+	top:0px;
+	left:0px;
+  width:622px;
+	height: 40px;
+	background:#FFFFFF;
+	opacity:.3;
+	z-index:-1;
+	border: 1px solid rgba(0,0,0,1);
+}
+
+#Headlines_Container{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:622px;
+	height: 40px;
+	z-index:0;
+	overflow:hidden;
+}
+
+#Headlines{
+	position: absolute;
+	top: 5px;
+	height: 30px;
+	white-space: nowrap;
+  width: auto;
+	z-index:0;
+	font-weight: bold;
+	color:white;
+	text-shadow: 3px 3px 3px #000000;
+	font-size: 24px;
+-webkit-animation-name: scroll;
+-webkit-animation-delay: 0s;
+-webkit-animation-duration: 40.0s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes scroll {
+0% {-webkit-transform:translateX(622px);}
+100% {-webkit-transform:translateX(-100%);}}
+
 @media (max-width:992px) {
 	.gjs-grid-row {
 	flex-direction:column;
