@@ -27,15 +27,17 @@
       <div id="container_two"></div>
     </div>
       <script>
+        
       anychart.onDocumentReady(function () {
         // add the data
         let data = anychart.data.set([
-          ["DEV TEAM", 1],
-          ["MARKETING TEAM", 1],
-          ["PRESALE", 2],
-          ["AIRDROP", 1],
-          ["LIQUIDITY POOL", 1]
+          ["DEV TEAM"],
+          ["MARKETING TEAM"],
+          ["PRESALE"],
+          ["AIRDROP"],
+          ["LIQUIDITY POOL"]
         ]);
+        
         // create a pie chart with the data
         let chart = anychart.pie(data);
         // set the chart title
