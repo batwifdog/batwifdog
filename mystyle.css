@@ -18,7 +18,7 @@ flex-flow: row nowrap;
 }
 
  #container {
-      width: 100%;
+      width: 500%;
       height: 750px;
       overlow: hidden;
 	 border: solid 2px black;
