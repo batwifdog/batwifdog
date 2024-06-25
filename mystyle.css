@@ -192,12 +192,13 @@ width: 100px;
 	background-color:rgba(255,157,0,1);
 }
 
+
 #Headlines_bg{
-	position: static;
+	position: absolute;
 	top:0px;
 	left:0px;
   width:622px;
-	height: 40px;
+	height: 100px;
 	background:#FFFFFF;
 	opacity:.3;
 	z-index:-1;
@@ -205,32 +206,36 @@ width: 100px;
 }
 
 #Headlines_Container{
-	position: static;
-	width:100%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:622px;
 	height: 100px;
 	z-index:0;
 	overflow:hidden;
 }
 
 #Headlines{
-	position: static;
+	position: absolute;
 	top: 5px;
-	height: 30px;
+	height: 80px;
 	white-space: nowrap;
-	border: 2px black solid;
   width: auto;
 	z-index:0;
 	font-weight: bold;
-	color:black;
-	text-shadow: 3px 3px 3px red;
-	font-size: 40px;
+	color:white;
+	text-shadow: 3px 3px 3px #000000;
+	font-size: 24px;
 -webkit-animation-name: scroll;
 -webkit-animation-delay: 0s;
--webkit-animation-duration: 30.0s;
+-webkit-animation-duration: 20.0s;
 -webkit-animation-iteration-count:infinite;
 -webkit-animation-timing-function: linear;
 }
 
+@-webkit-keyframes scroll {
+0% {-webkit-transform:translateX(622px);}
+100% {-webkit-transform:translateX(-100%);}}
 text #ac_text_1b767be4_5 {
 font-family:Comic Sans MS,cursive,sans-serif;
 }
