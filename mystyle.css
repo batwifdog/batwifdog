@@ -217,6 +217,7 @@ width: 100px;
 	position: static;
 	top: 5px;
 	height: 80px;
+	padding-left: 100%;
 	white-space: nowrap;
   width: auto;
 	z-index:0;
