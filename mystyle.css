@@ -226,7 +226,7 @@ width: 100px;
 	font-size: 24px;
 -webkit-animation-name: scroll;
 -webkit-animation-delay: -5s;
--webkit-animation-duration: 20.0s;
+-webkit-animation-duration: 5.0s;
 -webkit-animation-iteration-count:infinite;
 -webkit-animation-timing-function: linear;
 }
