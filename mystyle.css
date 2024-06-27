@@ -199,6 +199,8 @@ width: 100px;
 }
 
 #scroll-text {
+	font: italic bold 3em sans-serif;
+  white-space: nowrap;
   /* animation properties */
    font: italic bold 1.2em "Fira Sans", sans-serif;
   -moz-transform: translateX(100%);
