@@ -238,7 +238,7 @@ width: 100px;
 /* container */
 .padded-boxes {
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
     gap:2rem;
 }
 
