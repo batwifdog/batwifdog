@@ -240,13 +240,14 @@ width: 100px;
     display: -ms-flex: // Vendor prefixes required for flexbox
     display: -webkit-flex; 
     display: flex:
+    flex-flow: row nowrap;
 }
-.column {    
-    width: 100px;
+.column {
+    flex-basis:  | auto; 
     display: -ms-inline-flex;
     display: -webkit-inline-flex;
     display: inline-flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: row nowrap;
+    -ms-flex-direction: row nowrap;
+    flex-direction: row nowrap;
 }
