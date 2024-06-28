@@ -241,8 +241,10 @@ width: 100px;
     display: -webkit-flex; 
     display: flex:
     flex-flow: row nowrap;
+border: 2px soid red;
 }
 .column {
+	border: 2px solid black;
     flex-basis:  | auto; 
     display: -ms-inline-flex;
     display: -webkit-inline-flex;
