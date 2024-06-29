@@ -241,16 +241,10 @@ width: 100px;
     display: -ms-flex: // Vendor prefixes required for flexbox
     display: -webkit-flex; 
     display: flex:
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
 border: 2px soid red;
 }
 .column {
 	border: 2px solid black;
     flex-basis:  | auto; 
-    display: -ms-inline-flex;
-    display: -webkit-inline-flex;
-    display: inline-flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
 }
