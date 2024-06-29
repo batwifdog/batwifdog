@@ -237,14 +237,13 @@ width: 100px;
   }
 
 .row {
-    width: 100%;
-    display: -ms-flex: // Vendor prefixes required for flexbox
-    display: -webkit-flex; 
-    display: flex:
-    flex-flow: column nowrap;
-border: 2px soid red;
+    width: 100%; 
+    display: flex;
+    flex-flow: row nowrap;
+    border: 2px soid red;
+    background-color: DodgerBlue;
 }
 .column {
 	border: 2px solid black;
-    flex-basis:  | auto; 
+    flex-basis: auto; 
 }
