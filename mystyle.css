@@ -236,14 +236,14 @@ width: 100px;
     transform: translateX(-100%);
   }
 
-.row {
+#row {
     width: 100%; 
     display: flex;
     flex-flow: row nowrap;
     border: 2px soid red;
-    background-color: DodgerBlue;
+    background-color: Blue;
 }
-.column {
+#column {
 	border: 2px solid black;
     flex-basis: auto; 
 }
