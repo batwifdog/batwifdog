@@ -1,24 +1,23 @@
-
 {
   "name": "BatWifDog",
   "symbol": "BWD",
   "description": "BatWifDog (BWD) My name is Axl and I'm looking to hunt down the dogs that owe me coin!",
-  "image": "https://github.com/batwifdog/batwifdog/blob/BWD-json/bwd.png",
+  "image": "https://raw.githubusercontent.com/batwifdog/batwifdog/BWD-json/bwd.png",
   "external_url": "https://batwifdog.onrender.com",
-    "socials": {
+  "socials": {
     "website": "https://batwifdog.onrender.com",
     "twitter": "https://x.com/YOUR_HANDLE",
     "telegram": "https://t.me/YOUR_GROUP",
     "discord": "https://discord.gg/YOUR_INVITE",
     "instagram": "https://instagram.com/YOUR_HANDLE",
     "youtube": "https://youtube.com/@YOUR_CHANNEL"
-  }
+  },
   "attributes": [],
   "properties": {
     "category": "image",
     "files": [
       {
-        "uri": "https://github.com/batwifdog/batwifdog/blob/BWD-json/bwd.png"",
+        "uri": "https://raw.githubusercontent.com/batwifdog/batwifdog/BWD-json/bwd.png",
         "type": "image/png"
       }
     ]
